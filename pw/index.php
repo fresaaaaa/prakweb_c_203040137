@@ -2,9 +2,6 @@
 /*
     Fresabayu Anggoro
     203040137
-    Jumat 13.00 
-    latihan 5a Praktikum PW
-    https://github.com/fresaaaaa/pw2021_203040137
 */
 ?>
 
@@ -48,7 +45,7 @@ if (isset($_GET['cari'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> E - Book</title>
+    <title> E-Book IF UNPAS</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/admin.css">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
