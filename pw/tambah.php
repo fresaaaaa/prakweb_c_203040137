@@ -50,7 +50,7 @@ if (isset($_POST['tambah'])) {
         <ul>
             <li>
                 <label for="gambar">gambar :</label><br>
-                <input type="text" name="gambar" id="gambar" required><br><br>
+                <input type="file" name="gambar" id="gambar" required><br><br>
             </li>
             <li>
                 <label for="Judul">Judul :</label><br>
@@ -62,7 +62,7 @@ if (isset($_POST['tambah'])) {
             </li>
             <li>
                 <label for="Terbit">Terbit :</label><br>
-                <input type="text" name="Terbit" id="Terbit" required><br><br>
+                <input type="date" name="Terbit" id="Terbit" required><br><br>
             </li>
             <li>
                 <label for="Dimensi">Dimensi :</label><br>

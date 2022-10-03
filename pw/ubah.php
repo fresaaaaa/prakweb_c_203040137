@@ -57,7 +57,7 @@ if (isset($_POST['ubah'])) {
         <ul>
             <li>
                 <label for="gambar">gambar :</label><br>
-                <input type="text" name="gambar" id="gambar" required value="<?= $book['gambar']; ?>">
+                <input type="file" name="gambar" id="gambar" required value="<?= $book['gambar']; ?>">
             </li>
             <li>
                 <label for="Judul">Judul :</label><br>
@@ -69,7 +69,7 @@ if (isset($_POST['ubah'])) {
             </li>
             <li>
                 <label for="Terbit">Terbit :</label><br>
-                <input type="text" name="Terbit" id="Terbit" required value="<?= $book['Terbit']; ?>">
+                <input type="date" name="Terbit" id="Terbit" required value="<?= $book['Terbit']; ?>">
             </li>
             <li>
                 <label for="Dimensi">Dimensi :</label><br>

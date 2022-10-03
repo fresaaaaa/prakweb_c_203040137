@@ -52,7 +52,7 @@ if (isset($_GET['cari'])) {
 
     <style>
         body {
-            background-color: yelloww;
+            background-color: skyblue;
             margin: 50px;
             padding: 25px;
         }
@@ -70,36 +70,6 @@ if (isset($_GET['cari'])) {
         .kotak:hover {
             border: 1px solid #b1b1b1;
             box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-        }
-
-        .footer {
-            background-color: slategrey;
-            text-align: center;
-        }
-
-        .footer_title {
-            font-size: 20px;
-            color: white;
-        }
-
-        .footer_copyright {
-            text-align: center;
-        }
-
-        .footer_link {
-            color: white;
-        }
-
-        .footer_link:hover {
-            color: rgb(174, 247, 56);
-        }
-
-        .footer_social {
-            font-size: 1.6rem;
-        }
-
-        .footer_social:hover {
-            color: red;
         }
     </style>
 </head>
