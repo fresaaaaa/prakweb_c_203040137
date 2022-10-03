@@ -11,20 +11,11 @@
 <?php
 session_start();
 
-// if (!isset($_SESSION["username"])) {
-//     header("Location: login.php");
-//     exit;
-// }
-
 // Menghubungkan dengan file phplainnya
 require 'function.php';
 // Melakukan query dari database
 $book = query("SELECT * FROM buku");
 
-
-
-// //Menghubungkan dengan file phplainnya
-// require 'function.php';
 
 //ketika tombol cari di klik
 if (isset($_GET['cari'])) {
